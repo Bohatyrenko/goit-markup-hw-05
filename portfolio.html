@@ -19,18 +19,25 @@
             ><span class="web">Web</span>Studio</a
           >
           <ul class="header-list">
-            <li><a class="header-link-first" href="./index.html">Студия</a></li>
+            <li class="line">
+              <a class="header-link" href="./index.html">Студия</a></li>
             <li>
               <a class="header-link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="header-link" href="">Контакты</a></li>
+            <li>
+              <a class="header-link" href="">Контакты</a></li>
           </ul>
         </nav>
         <address class="navigate horizont">
-          <a class="header-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="header-link-mail" href="mailto:info@devstudio.com">
+            <svg class="mail-svg">
+              <use href="./images/icon/icomoon/symbol-defs.svg#icon-mail"></use>
+            </svg>info@devstudio.com</a
           >
-          <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-link-phone" href="tel:+380961111111">
+            <svg class="phone-svg">
+              <use href="./images/icon/icomoon/symbol-defs.svg#icon-phone"></use>
+          </svg>+38 096 111 11 11</a>
         </address>
       </div>
     </header>
@@ -58,8 +65,8 @@
             </li>
           </ul>
           <ul class="portfolio">
-            <li class="portfolio-item portfolio-bottom">
-              <a href=""
+            <li class="portfolio-item portfolio-bottom ">
+              <a class="portfolio-link shadow" href=""
                 ><img
                   src="./images-portfolio/portfolio1.jpg"
                   alt="Portfolio1"
@@ -72,7 +79,7 @@
               </a>
             </li>
             <li class="portfolio-item portfolio-bottom">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio2.jpg"
                   alt="Portfolio2"
@@ -85,7 +92,7 @@
               </a>
             </li>
             <li class="portfolio-item portfolio-bottom">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio3.jpg"
                   alt="Portfolio3"
@@ -98,7 +105,7 @@
               </a>
             </li>
             <li class="portfolio-item portfolio-bottom">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio4.jpg"
                   alt="Portfolio4"
@@ -111,7 +118,7 @@
               </a>
             </li>
             <li class="portfolio-item portfolio-bottom">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio5.jpg"
                   alt="Portfolio5"
@@ -124,7 +131,7 @@
               </a>
             </li>
             <li class="portfolio-item portfolio-bottom">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio6.jpg"
                   alt="Portfolio6"
@@ -137,7 +144,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio7.jpg"
                   alt="Portfolio7"
@@ -150,7 +157,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio8.jpg"
                   alt="Portfolio8"
@@ -163,7 +170,7 @@
               </a>
             </li>
             <li class="portfolio-item">
-              <a href="">
+              <a class="portfolio-link shadow" href="">
                 <img
                   src="./images-portfolio/portfolio9.jpg"
                   alt="Portfolio9"
@@ -182,18 +189,53 @@
 
     <!-- Футер в portfolio -->
     <footer>
-      <div class="container">
-        <a class="logo footer-logo" href="./index.html"
-          ><span class="web">Web</span><span class="studio">Studio</span></a
-        >
-        <h2 class="visually-hidden">Контакты</h2>
-        <address class="address">
-          г. Киев, пр-т Леси Украинки, 26<br />
-          <a class="address-link mail-footer" href="mailto:info@example.com"
-            >info@example.com</a
-          ><br />
-          <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container footer-flex">
+        <section>
+          <a class="logo footer-logo" href="./index.html"
+            ><span class="web">Web</span><span class="studio">Studio</span></a
+          >
+          <h2 class="visually-hidden">Контакты</h2>
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26<br />
+            <a class="address-link mail-footer" href="mailto:info@example.com"
+              >info@example.com</a
+            ><br />
+            <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </section>
+        <section class="welcome">
+          <h2 class="footer-title">Присоединяйтесь</h2>
+          <ul class="footer-social-icons">
+            <li class="social-icons-item">
+              <a class="bg-social" href="//www.instagram.com/">
+                <svg class="social-footer-svg">
+                  <use  href="./images/icon/icomoon/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icons-item">
+              <a class="bg-social" href="//www.facebook.com/">
+                <svg class="social-footer-svg">
+                  <use href="./images/icon/icomoon/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icons-item">
+              <a class="bg-social" href="//www.twitter.com/">
+                <svg class="social-footer-svg">
+                  <use href="./images/icon/icomoon/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icons-item" >
+              <a class="bg-social" href="//www.linkedin.com/">
+                <svg class="social-footer-svg">
+                  <use href="./images/icon/icomoon/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </footer>
   </body>
