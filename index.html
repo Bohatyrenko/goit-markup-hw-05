@@ -50,9 +50,18 @@
             для вашего бизнеса
           </h1>
           <!-- <a class="button" href="">Заказать услугу</a> -->
-          <button class="button">Заказать услугу</button>
+          <button class="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
+
+      <!-- Модалка -->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-close" data-modal-close></button>
+        </div>
+
+      </div>
+
 
       <!-- Особенности -->
       <section class="container features">
@@ -370,5 +379,6 @@
         </section>
       </div>
     </footer>
+    <script src="../js/modal.js"></script>
   </body>
 </html>
